@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific data files (DO NOT COMMIT - too large!)
+data/
+*.csv
+*.jsonl
+enrichment_log.txt
+
+# Archives (test/investigation scripts - not needed for production)
+scripts_archive/
+
+# Temporary analysis files
+analyze_*.py
+verify_*.py
+test_*.py
+explain_*.py
+check_*.py
+
+# Keep .claude directory
+.claude/
